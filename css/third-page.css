@@ -1,0 +1,165 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #e0f7f8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.language-selector {
+    position: relative;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flag-icon {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.phone-input {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.country-code {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country-flag {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.phone-number {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-link {
+    text-decoration: none;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #33d1cc;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-text {
+    font-size: 1em;
+    color: #666;
+}
+
+.login-link {
+    color: #00695c; 
+    text-decoration: none; 
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+.login-link:hover {
+    text-decoration: none; 
+}

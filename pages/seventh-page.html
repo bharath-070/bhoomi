@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="/css/seventh-page.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/pages/sixth-page.html" class="back-link">
+          <button class="back-button">&#8592;</button>
+        </a>
+      </header>
+      <main class="main-content">
+        <div class="card">
+          <h1>Verification code</h1>
+          <img
+            src="/images/verification.png"
+            alt="Verification Illustration"
+            class="illustration"
+          />
+          <p>
+            Please enter the OTP which you have received on your mobile number.
+          </p>
+          <form class="otp-form">
+            <div class="otp-inputs">
+              <input type="text" maxlength="1" class="otp-box" />
+              <input type="text" maxlength="1" class="otp-box" />
+              <input type="text" maxlength="1" class="otp-box" />
+              <input type="text" maxlength="1" class="otp-box" />
+            </div>
+            <p class="timer">1:59</p>
+            <a href="" class="resend-link">Resend OTP</a>
+            <a href="/pages/main.html" class="submit-link">
+              <button type="button" class="submit-button">Login</button>
+            </a>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

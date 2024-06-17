@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Interface</title>
+    <link rel="stylesheet" href="/css/video-page.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="video-section" id="video-section">
+        <!-- Video 1 -->
+        <div class="video-container">
+          <video
+            src="/videos/1.mp4"
+            autoplay
+            muted
+            loop
+            onclick="togglePlay(this)"
+          ></video>
+          <div class="back-button">
+            <a href="/pages/main.html"
+              ><img src="/images/back icon.png" alt="Back"
+            /></a>
+          </div>
+          <div class="overlay">
+            <div class="profile-info">
+              <img src="/images/video profile.png" alt="Profile Picture" />
+              <p>Sahaj Maniya</p>
+              <span>Rape blossom flower</span>
+            </div>
+            <div class="buttons">
+              <button id="like1" onclick="toggleLike('like1', 'dislike1')">
+                <img src="/images/like icon.png" alt="Like" />
+              </button>
+              <button
+                id="dislike1"
+                onclick="toggleDislike('like1', 'dislike1')"
+              >
+                <img src="/images/dislike icon.png" alt="Dislike" />
+              </button>
+              <button>
+                <img src="/images/comment icon.png" alt="Comment" />
+              </button>
+              <button><img src="/images/share icon.png" alt="Share" /></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-container">
+          <video
+            src="/videos/2.mp4"
+            autoplay
+            muted
+            loop
+            onclick="togglePlay(this)"
+          ></video>
+          <div class="back-button">
+            <a href="/pages/main.html"
+              ><img src="/images/back icon.png" alt="Back"
+            /></a>
+          </div>
+          <div class="overlay">
+            <div class="profile-info">
+              <img src="/images/profile.png" alt="Profile Picture" />
+              <p>Sahaj Maniya</p>
+              <span>Another video description</span>
+            </div>
+            <div class="buttons">
+              <button id="like2" onclick="toggleLike('like2', 'dislike2')">
+                <img src="/images/like icon.png" alt="Like" />
+              </button>
+              <button
+                id="dislike2"
+                onclick="toggleDislike('like2', 'dislike2')"
+              >
+                <img src="/images/dislike icon.png" alt="Dislike" />
+              </button>
+              <button>
+                <img src="/images/comment icon.png" alt="Comment" />
+              </button>
+              <button><img src="/images/share icon.png" alt="Share" /></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more video containers as needed -->
+      </div>
+    </div>
+    <script src="/js/video-page.js"></script>
+  </body>
+</html>

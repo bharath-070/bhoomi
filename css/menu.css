@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #d1f7f5;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.back-button {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px; /* Increase font size for better visibility */
+}
+
+.profile {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profile p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.profile a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+ul li {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+ul li:hover {
+    background-color: #b4e3e0;
+}
+
+.logout {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.logout a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

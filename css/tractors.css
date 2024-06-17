@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-container, .menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.back-button img, .menu-button img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.tractors-list {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tractor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+}
+
+.tractor-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.tractor-details {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.tractor-details h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.status.available {
+    background-color: #4caf50;
+}
+
+.status.unavailable {
+    background-color: #f44336;
+}
+
+.arrow {
+    font-size: 1.5em;
+    color: #00bcd4;
+}
